@@ -1,0 +1,9 @@
+[package]
+name = "Lagrange_Interpolation_in_Finite_Fields_with_Modular_Arithmetic_in_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num = "0.4"
+num-bigint = "0.4"
+num-traits = "0.2"
