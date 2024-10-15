@@ -10,3 +10,40 @@
   - `num-bigint`: Supports arbitrary-precision arithmetic for big integers.
   - `num-traits`: Provides numerical traits for Rust's primitive types.
 - Add the following lines to your Cargo.toml:
+>```
+>[dependencies]
+>num = "0.4"
+>num-bigint = "0.4"
+>num-traits = "0.2"
+## Example Usage
+- The program computes the polynomial for the following points: $(0,4),(-2,1),(2,3)$.
+- The results will show the value of $P(x)$ for $x=0,1,2,3,4 modulo $5$.
+## Example Output
+- The expected output will show the evaluations of the polynomial at the specified $x$ values:
+>```
+>P(0) = <value>
+>P(1) = <value>
+>P(2) = <value>
+>P(3) = <value>
+>P(4) = <value>
+  
+## Requirements
+- Rust installed on your machine. (If Rust is not installed, follow the instructions on the [official Rust website](https://www.rust-lang.org/tools/install) to install it).
+
+## Contributing
+  - If you intend to contribute to this project, fork the repository and make a pull request.
+
+## Usage
+- To use this code, you can clone or download this repository.
+- Compile and run the Rust program using the following command:
+>```
+>cargo build
+>cargo run
+## Acknowledgments
+- Rust
+
+## Clone the repository:
+
+   ```bash
+   git Lagrange_Interpolation_in_Finite_Fields_with_Modular_Arithmetic_in_Rust.git
+   cd Lagrange_Interpolation_in_Finite_Fields_with_Modular_Arithmetic_in_Rust
