@@ -45,5 +45,5 @@
 ## Clone the repository:
 
    ```bash
-   git Lagrange_Interpolation_in_Finite_Fields_with_Modular_Arithmetic_in_Rust.git
+   git clone https://github.com/cypriansakwa/Lagrange_Interpolation_in_Finite_Fields_with_Modular_Arithmetic_in_Rust.git
    cd Lagrange_Interpolation_in_Finite_Fields_with_Modular_Arithmetic_in_Rust
